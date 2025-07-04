@@ -2,50 +2,45 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/goit-js-hw-09/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gallery + Form</title>
-  <script type="module" crossorigin src="/goit-js-hw-09/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-B_SY1GJM.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery + Form</title>
+    <link rel="icon" type="image/png" href="favicon-main.png" />
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-DWR66dDH.css">
 </head>
 
 <body>
-  <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="img/sprite.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./1-gallery.html">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./2-form.html">Form</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+    <!-- передавать аргументы  icon-path="img/sprite.svg#logo" -->
+    <header class="header">
+    <div class="icon-block">
+        <img class="header-icon" src="favicon-main.png" alt="home">
+    </div>
+    <div class="container">
+        <ul class="nav-list">
+            <li class="nav-item noteHome">
+                <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./1-gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./2-form.html">Form</a>
+            </li>
+        </ul>
+    </div>
 </header>
 
-  <main>
-    <!-- <ul>
-      <li><a href="./1-gallery.html">Gallery</a></li>
-      <li><a href="./2-form.html">Form</a></li>
-    </ul> -->
-  </main>
+    <main class="bg_main">
 
-  <footer class="footer">
+    </main>
+
+    <footer class="footer">
   <div class="container">
     <p class="footer-desc">
-      это footer
+      ©2025 Все права защищены
     </p>
   </div>
 </footer>
-
 </body>
 
 </html>
